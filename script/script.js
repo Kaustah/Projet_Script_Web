@@ -15,9 +15,7 @@ document.getElementById("emplacement").addEventListener("click", function(){
             document.getElementById("emplacement").appendChild(newList);
             newButton.parentNode.removeChild(newButton);
             document.getElementById("emplacement").removeChild(newInput);
-           //Crer le nouveau <li> et in
-           //Crer le nouveau <li> et inseerer a la fait de <ul>
-           //Supprimer le bouton et son champ d'entrée
+           //Lors du clique es elements disparaisse et reapparaisse
         });
     }
 }); 
