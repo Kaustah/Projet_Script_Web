@@ -85,3 +85,9 @@ $("#texte_central").hover(function() {
 }, function() {
     $(".menu").fadeToggle(1000)
 });
+
+//Click, modifier le font family P2
+$("#p2").click(function() {
+    $(this).css({"margin-top": "50px", "margin-bot": "50px"});
+
+});

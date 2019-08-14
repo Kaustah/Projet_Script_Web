@@ -130,7 +130,7 @@ $(window).scroll(function() {
     var currentHeight = $("#menu_gauche").css("height");
     var NewHeight = "";
 
-    if (currentHeight != "600px")
+    if (currentHeight != "550px")
     {
         for (var i = 0; i<3;i++)
         {
@@ -139,8 +139,13 @@ $(window).scroll(function() {
         NewHeight = Number(NewHeight)
         NewHeight += 5;
         NewHeight += "px";
-    
+
         $(".menu").css("height", NewHeight);
     }
     
+});
+
+//Evenement Click Avertissement 
+$("#avertissement").click(function() {
+    $(this).css("font-size", "25px").css("text-align","center");
 });
