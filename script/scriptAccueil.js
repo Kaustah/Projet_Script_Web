@@ -124,3 +124,23 @@ document.getElementById("NavLinkStyle").addEventListener("click", function() {
     }
     
 });
+
+//Evenement lorsque l'ecran ScrollDown alors les Nav s'aggrandissent
+$(window).scroll(function() {
+    var currentHeight = $("#menu_gauche").css("height");
+    var NewHeight = "";
+
+    if (currentHeight != "600px")
+    {
+        for (var i = 0; i<3;i++)
+        {
+            NewHeight += currentHeight[i];
+        }
+        NewHeight = Number(NewHeight)
+        NewHeight += 5;
+        NewHeight += "px";
+    
+        $(".menu").css("height", NewHeight);
+    }
+    
+});
