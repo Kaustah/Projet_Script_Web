@@ -81,10 +81,24 @@ nav a
     width: 70%;
     margin: auto;
     font-weight: 400;
-    background-color: rgba(205, 223, 199, 0.8); 
     margin-bottom: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.texte_central
+{
+    background-color: rgba(205, 223, 199, 0.8);
+}
+
+.texte_central2
+{
+    background-color: rgba(145, 196, 175, 0.8); 
+}
+
+.texte_central3
+{
+    background-color: rgba(228, 235, 160, 0.8); 
 }
 
 #texte_central .images

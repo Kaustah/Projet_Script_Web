@@ -69,11 +69,15 @@ nav a
 #menu_gauche
 {
     float:left;
+    /*Ajouts*/
+    opacity: 0;
 }
 
 #menu_droite
 {
     float: right;
+    /*Ajouts*/
+    opacity: 0;
 }
 
 #texte_central
@@ -85,6 +89,8 @@ nav a
     margin-bottom: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+    /*Ajouts*/
+    opacity: 0;
 }
 
 #texte_central p
