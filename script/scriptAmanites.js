@@ -76,3 +76,12 @@ function MenuDroiteLiensAnglais() {
         document.getElementById("menu_droite").style.height = "475px";
     }
 }
+
+//FadeToggle avec Hover + changement de style
+$("#texte_central").hover(function() {
+    $(".menu").fadeToggle(2000, function() {
+        $(".menu").css("background-color","rgba(228, 235, 160, 0.8)")
+    })
+}, function() {
+    $(".menu").fadeToggle(1000)
+});
